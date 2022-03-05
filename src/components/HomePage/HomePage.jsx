@@ -10,7 +10,7 @@ const HomePage = () => {
         fetch('https://www.themealdb.com/api/json/v1/1/categories.php')
         .then(response => response.json())
         .then(data => 
-            setPostData(data.categories.slice(0,3))
+            setPostData(data.categories.slice(0,3)) //attēlo 3 card elementus vienā rindā
             )
         .catch(
             // handle errors

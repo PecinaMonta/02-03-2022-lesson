@@ -3,10 +3,9 @@ import styled from "styled-components"
 const StyledCard = styled.div`
     width: 19rem;
     height: 19rem;
+    font-weight: 600;
     text-align: center;
     padding: 1rem;
-    border: 1px solid pink;
-    
 `
 
 const Image = styled.img`
@@ -18,6 +17,7 @@ const Description = styled.p`
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;  
     overflow: hidden;
+    font-weight: 300;
 `
 
 const Card = ({data}) => {
