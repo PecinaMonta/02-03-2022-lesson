@@ -28,7 +28,7 @@ function App() {
     <>
     <GlobalStyle/>
     <BrowserRouter>
-      <Nav/>
+        <Nav/>
         <Routes>
           <Route exact path="/" element={<HomePage/>} />
           <Route exact path="/all-posts" element={<AllPosts/>} />

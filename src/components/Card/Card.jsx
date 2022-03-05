@@ -5,6 +5,8 @@ const StyledCard = styled.div`
     height: 19rem;
     text-align: center;
     padding: 1rem;
+    border: 1px solid pink;
+    
 `
 
 const Image = styled.img`

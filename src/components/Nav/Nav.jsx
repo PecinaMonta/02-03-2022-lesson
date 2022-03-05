@@ -51,7 +51,7 @@ const Nav = () => {
             <NavLink to="/">Home</NavLink>
             <NavLink to="/all-posts">All posts</NavLink>
             <ButtonLink to="/create"><FaPlusCircle/></ButtonLink>
-            <div to="/login" onClick={setIsOpen(!isOpen)}><FaUserAlt/></div>
+            <div to="/login"><FaUserAlt/></div>
         </NavBar>
     )
 }
