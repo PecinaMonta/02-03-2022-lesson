@@ -12,6 +12,7 @@ const Heading = styled.h3`
     width: 100%;
     height: 1.5rem;
     text-align: center;
+    
 `
 
 const FieldContainer = styled.div`
@@ -31,6 +32,7 @@ const SubmitBtn = styled.button`
     background: #112D4E;
     color: #F9F7F7;
     border: none;
+    margin-top: 1rem;
 `
 
 const Form = () => {
